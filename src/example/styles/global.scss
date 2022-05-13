@@ -1,0 +1,37 @@
+$accent:#0072a7;
+$lightgray:rgb(230,230,230);
+body {
+    margin: 0;
+    font-family:'Helvetica Neue', sans-serif;
+  .App {
+    text-align: center;
+    .sidebar {
+      position: fixed;
+      top:0;
+      bottom:0;
+      right:0;
+      width:20%;
+      border: 1px solid $lightgray;
+      border-left-width: 2px;
+      padding: 0;
+      margin:0;
+      min-width:250px;
+      max-width:500px;
+      .row {
+        border: 1px solid $accent;
+        padding: 5px 25px 0;
+        margin-top: 15px;
+        & > span {
+          display:flex;
+        }
+        & > div {
+          display:flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+
+    }
+  }
+}
+

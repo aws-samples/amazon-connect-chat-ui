@@ -1,0 +1,37 @@
+.chui-input {
+    display:flex;
+    position:relative;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+    .chui-text {
+        width:100%;
+        border-radius: 1.15rem;
+        padding: 0.25rem .875rem;
+        padding-right: 50px;
+        font-size:1rem;
+        line-height:1.4rem; 
+        word-wrap: break-word;
+        border: 1px solid #248bf5;
+        margin: 7% 2.5%;
+        & > div {
+            margin:0;
+            padding:0;
+            &, &:hover, &:focus, &:active {
+                border:0 solid transparent!important;
+                &:before {
+                    border:0 solid transparent!important;
+                }
+            }
+        }
+        &:disabled {
+            border-color: #8e8e93;
+            background-color: rgba(0,0,0,0.1);
+        }
+    }
+    .chui-send {
+        position:absolute;
+        right:10px;
+        font-size:inherit;
+    }
+}
