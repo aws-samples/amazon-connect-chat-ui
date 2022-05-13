@@ -70,7 +70,7 @@ export const ChatWidget: React.FC<ChatWidgetProps> = ({
     }, []);
 
     const onSend = useCallback(() => {
-
+        // Todo - add send event support
     },[]);
 
     const timeout = useMemo(() => {
