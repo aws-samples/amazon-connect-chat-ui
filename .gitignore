@@ -24,4 +24,4 @@ yarn-error.log*
 .attach_pid*
 src/env/local.ts
 local.*
-package-lock.json
+#package-lock.json
